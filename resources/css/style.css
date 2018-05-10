@@ -1,0 +1,79 @@
+html{
+  font-size: 18px;
+  background-color: white;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+.motoimage{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40em;
+  background-image: url("../moto.jpeg");
+}
+
+.containertop{
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.containertop img{
+  display: flex;
+  justify-content: flex-start;
+   margin-left: 15px;
+  height: 1.5em;
+}
+
+.containertop span{
+  display: flex;
+  margin-left: 30px;
+  height: 1.5em;
+}
+
+.imbeddedAd{
+  display: block;
+  margin-left: 20em;
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
+
+.imbeddedAd h4{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.imbeddedAd h1{
+  font-size: 2.0em;
+  font-weight: bold;
+  margin-top: 20px;
+  }
+
+
+
+
+.containerbottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content:flex-end;
+  width: 100%;
+  height: 2.5em;
+  width: 100%;
+  background-color: Firebrick;
+  color: white;
+}
+
+.containerbottom li{
+  margin: 20px 20px 20px 20px;
