@@ -1,79 +1,149 @@
-html{
+html {
+  color: white;
   font-size: 18px;
-  background-color: white;
 }
 
-header{
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.baseContainer {
+  max-width: 960px;
+  width: 100%;
+  border: dashed red;
+  margin: 0 auto;
+}
+
+header, .header {
   display: flex;
-  flex-direction: column;
+  background-color: black;
+  background-size: 100%;
+  border: dashed green;
 }
 
-.motoimage{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 40em;
-  background-image: url("../moto.jpeg");
+header img {
+  height: 1.5rem;
+  margin: .66rem 0rem .66rem .5rem;
 }
 
-.containertop{
+.hdrAgent {
+  font-size: 1rem;
+  margin-top: .66rem;
+  margin-bottom: .66rem;
+  margin-left: 1rem;
+}
+
+.mainImage {
   display: flex;
   align-items: center;
-  height: 2.5em;
-  width: 100%;
-  background-color: black;
-  color: white;
+  background-image: url("../moto.jpeg");
+  background-repeat: no-repeat;
+  height: 25em;
+  margin: 0 auto;
+  background-size: 100%;
+  border: dashed purple;
 }
 
-.containertop img{
+.announceBlock {
   display: flex;
-  justify-content: flex-start;
-   margin-left: 15px;
-  height: 1.5em;
-}
-
-.containertop span{
-  display: flex;
-  margin-left: 30px;
-  height: 1.5em;
-}
-
-.imbeddedAd{
-  display: block;
-  margin-left: 20em;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
   background-color: black;
-  color: white;
-  width: 20em;
-  padding: 2em 3em;
-  position: relative;
-  top: 9em;
+  font-weight: bold;
+  border: dashed yellow;
 }
 
-.imbeddedAd h4{
-  font-weight: bold;
-  font-size: 1.5em;
+.announceBlock_P {
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-.imbeddedAd h1{
-  font-size: 2.0em;
-  font-weight: bold;
-  margin-top: 20px;
-  }
+.announceBlock_h1 {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
 
+nav, .nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: firebrick;
+  align-items: center;
+  height: 3rem;
+}
 
+.placement {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
+.product {
+  display: flex;
+  flex-direction: column;
+  border: solid 4px;
+  border-color: black;
+  width: 30%;
 
-.containerbottom{
+}
+
+.productimage {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content:flex-end;
-  width: 100%;
-  height: 2.5em;
-  width: 100%;
-  background-color: Firebrick;
-  color: white;
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.containerbottom li{
-  margin: 20px 20px 20px 20px;
+.productimage img{
+  max-width: 8rem;
+}
+
+.product h4 {
+  background-color: black;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.placetime {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+
+}
+
+.lochour {
+  width: 35%;
+}
+
+.title {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info {
+  color: black;
+  font-weight: lighter;
+  padding-top: .3rem;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  height: 10rem;
+  margin-top: 3rem;
+
+}
+
+.copyright {
+  padding-top: 4rem;
+}
