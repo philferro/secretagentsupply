@@ -112,7 +112,7 @@ nav, .nav {
   font-weight: bold;
 }
 
-.placetime {
+.information {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -136,14 +136,99 @@ nav, .nav {
   padding-top: .3rem;
 }
 
-.footer {
+footer {
   display: flex;
   background-color: black;
   height: 10rem;
   margin-top: 3rem;
-
 }
 
 .copyright {
   padding-top: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+.mainImage {
+    background-size: cover;
+  }
+.glasses {
+    display: none;
+  }
+.product {
+    width: 47%;
+  }
+.nav h4{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+  }
+.nav h3{
+    display: flex;
+}
+}
+
+@media only screen and (max-width: 470px) {
+
+html {
+   font-size: 18px;
+}
+
+.mainImage {
+  height: 15rem;
+  background-size: cover;
+}
+
+.announceBlock {
+  width: 100%
+}
+
+.announceBlock_P {
+    font-size: .77rem;
+}
+
+.announceBlock_h1 {
+    font-size: 1rem;
+}
+
+.itemlocation {
+    display: flex;
+    justify-content: center;
+}
+
+.watch {
+  display: none;
+}
+
+.pen {
+  width: 90%;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lochour {
+    width: 90%;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hours {
+    margin-top: .5rem;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+
 }
